@@ -1,0 +1,23 @@
+/* Utility Classes */
+.text-primary{
+    color: #0c2e8a;
+}
+.text-secondary{
+    color: #50d8af !important;
+}
+#active{
+    color: #50d8af !important;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1024px;
+}
+
+.border{
+    border-left: 2px solid rgb(224, 224, 224);
+    padding-left: 12px;
+
+}

@@ -1,0 +1,21 @@
+
+/* Hide the top bar on small screens */
+#top-bar {
+    display: none;
+}
+
+/* Hide the main menu on small screens */
+#navbar #main-menu {
+    display: none;
+}
+
+/* Show hamburger button to toggle the menu */
+.toggler {
+    display: block;
+    cursor: pointer;
+}
+
+/* Menu trigger  */
+#toggle:checked + #main-menu   {
+    display: block;
+}
