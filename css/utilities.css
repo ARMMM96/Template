@@ -21,3 +21,32 @@
     padding-left: 12px;
 
 }
+.btn{
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    transition:  .5s  ease-in-out;
+    margin: 1rem;
+    width: 15rem;
+}
+.btn-primary{
+    background:#0c2e8a;
+    border: #0c2e8a;
+}
+.btn-primary:hover{
+    color: #0c2e8a;
+    background: rgba(0,0,0,0);
+    border: #0c2e8a solid ;
+}
+
+.btn-secondary{
+    background: #50d8af ;
+    border: #50d8af;
+}
+
+.btn-secondary:hover{
+    color: #50d8af;
+    background: rgba(0,0,0,0);
+    border: #50d8af solid;
+}

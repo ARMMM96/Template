@@ -83,3 +83,27 @@ label{
 #toggle{
     display: none;
 }
+
+/* Intro Section */
+#intro {
+    background: url('../img/introSection/1.jpg') no-repeat center center/cover;
+    min-height: 25rem;
+}
+#intro .intro-content{
+    background-color: rgba(255, 255, 255, 0.781);
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 25rem;
+
+}
+#intro .intro-content h2{
+    font-size: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+#intro .intro-content span{
+    text-decoration: underline;
+}
